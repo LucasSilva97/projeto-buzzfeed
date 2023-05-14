@@ -33,15 +33,13 @@ export class QuizzComponent {
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
-      console.log(this.questionIndex)
-      console.log(this.questionMaxIndex)
+
     }
   }
 
   playerChoose(value:string){
     this.answers.push(value)
     this.nextStep()
-    console.log(this.answers)
   }
 
   async nextStep(){
@@ -68,6 +66,7 @@ export class QuizzComponent {
           return current
       }
     })
+
     return result
   }
 }

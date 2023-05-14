@@ -1,55 +1,67 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual guerreiro Z você seria ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Por qual motivo você lutaria ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Aumentar os poderes", "alias":"GOKU"},
+        {"id": 2, "name":"Mostrar que sou mais forte", "alias":"VEGETA"},
+        {"id": 3, "name":"Por um futuro melhor", "alias":"MIRAI_THRUNKS"},
+        {"id": 4, "name":"Melhorar minhas técnicas e estratégia", "alias":"PICCOLO"},
+        {"id": 5, "name":"Por estar furioso", "alias":"GOHAN"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Se você lutasse, acabaria logo com a luta ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Não, brincaria um pouco com o adversário", "alias":"GOKU"},
+        {"id": 2, "name":"Derrotaria instantaneamente", "alias":"MIRAI_THRUNKS"},
+        {"id": 3, "name":"Não. Humilhava primeiro!", "alias":"VEGETA"},
+        {"id": 4, "name":"Tentaria entender seu motivo, depois eliminaria.", "alias":"PICCOLO"},
+        {"id": 5, "name":"Se pedisse arrego, talvez não.", "alias":"GOHAN"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual seria seu estilo de luta ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Corpo a corpo", "alias":"GOKU"},
+        {"id": 2, "name":"Luta estratégica", "alias":"PICCOLO"},
+        {"id": 3, "name":"Com muito poder destrutivo", "alias":"VEGETA"},
+        {"id": 4, "name":"Estilo tranquilo, sem estresse.", "alias":"GOHAN"},
+        {"id": 5, "name":"Direto ao ponto.", "alias":"MIRAI_THRUNKS"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual seu local preferido de treinamento ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Locais de alta gravidade", "alias":"VEGETA"},
+        {"id": 2, "name":"Sala do tempo", "alias":"MIRAI_THRUNKS"},
+        {"id": 3, "name":"Ao ar livre", "alias":"GOHAN"},
+        {"id": 4, "name":"Locais inóspitos", "alias":"PICCOLO"},
+        {"id": 5, "name":"Em outros mundos remotos", "alias":"GOKU"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual seria seu maior inimigo ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Cell", "alias":"GOHAN"},
+        {"id": 2, "name":"Androids 17 e 18", "alias":"MIRAI_THRUNKS"},
+        {"id": 3, "name":"Freeza", "alias":"GOKU"},
+        {"id": 4, "name":"Majin Boo", "alias":"VEGETA"},
+        {"id": 5, "name":"CHICHI", "alias":"PICCOLO"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "GOKU": "Você muito provavelmente seria ",
+    "VEGETA": "Você muito provavelmente seria o VEGETA!",
+    "GOHAN": "Você muito provavelmente seria o GOHAN!",
+    "MIRAI_THRUNKS": "Você muito provavelmente seria o MIRAI THRUNKS!",
+    "PICCOLO": "Você muito provavelmente seria o PICCOLO!"
   }
 }
